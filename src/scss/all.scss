@@ -1,0 +1,175 @@
+@import "./base/reset";
+@import "./base/base&font";
+
+$title-fs: 4rem;
+$subtitle-fs: 1.5rem;
+$g: 1.5rem;
+
+.nav {
+  &-menu {
+    display: flex;
+    &-item {
+      &:not(:last-child) {
+        width: 306px;
+        margin-right: 61px;
+      }
+      &:last-child {
+        width: 196px;
+        text-align: end;
+      }
+    }
+  }
+}
+
+.home {
+  &-main {
+    display: flex;
+    padding: 4.5rem 0;
+    > img {
+      max-width: 100%;
+      margin-right: $g;
+    }
+  }
+}
+
+.hero {
+  margin-top: auto;
+  margin-bottom: auto;
+  &-subtitle {
+    font-size: $title-fs;
+  }
+  &-title {
+    font-size: $title-fs * 2;
+    text-align: end;
+  }
+  &-contact {
+    text-align: end;
+  }
+}
+
+.introduction {
+  background-image: url(../img/background-img.png);
+  background-size: cover;
+  padding: 10rem 0;
+  .container {
+    display: flex;
+  }
+  &-textcontent {
+    margin-right: $g;
+    width: 526px;
+    &-title {
+      font-size: $title-fs;
+    }
+    &-mytext {
+      font-size: $subtitle-fs;
+    }
+    &-sparkle {
+      img {
+        &:not(:last-child) {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+  &-pic {
+    img:not(:last-child) {
+      margin-right: $g;
+    }
+  }
+}
+
+.about {
+  padding: 10rem 0;
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  &-content {
+    width: 526px;
+    &-title {
+      font-size: $title-fs;
+      margin-bottom: 2.25rem;
+      margin-top: -2.25rem;
+    }
+    &-text {
+      font-size: $subtitle-fs;
+    }
+  }
+  &-cards {
+    width: 636px;
+    margin-right: auto;
+  }
+  &-list {
+    display: flex;
+    gap: $g;
+    flex-wrap: wrap;
+    &-card {
+      width: 306px;
+      padding: 1rem;
+      h3 {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  padding: 6rem 0;
+  &-title {
+    font-size: $title-fs;
+    margin-right: 1rem;
+  }
+  img {
+    margin-right: auto;
+  }
+  &-social {
+    display: flex;
+    gap: 1.25rem;
+    &-item {
+      width: 162px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.project {
+  padding: 10rem 0;
+  &-title {
+    width: 746px;
+    font-size: $title-fs;
+    margin-left: auto;
+  }
+  &-content {
+    display: flex;
+    img {
+      &:not(:last-child) {
+        margin-right: $g;
+      }
+    }
+    &-caption {
+      display: flex;
+      flex-wrap: wrap;
+      > img {
+        &:first-child {
+          margin-bottom: 1.75rem;
+        }
+      }
+      &-text {
+        width: 636px;
+        margin-bottom: 1.75rem;
+        p {
+          margin-bottom: 76px;
+        }
+      }
+    }
+  }
+}
+
+.footer p {
+  text-align: center;
+  padding: 2.5rem 0;
+}

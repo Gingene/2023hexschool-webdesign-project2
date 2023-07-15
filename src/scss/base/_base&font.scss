@@ -1,0 +1,42 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  outline: 1px solid lightgreen;
+}
+
+body {
+  font-family: "Bruno Ace SC", cursive;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.wrap {
+  background-color: #000;
+}
+
+.container {
+  width: 1320px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #fff;
+  color: #000;
+}
+
+.bg-light {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
+}
