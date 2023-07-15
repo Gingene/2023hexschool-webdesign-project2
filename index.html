@@ -18,30 +18,40 @@
         <header>
           <nav class="nav">
             <ul class="nav-menu">
-              <li class="nav-menu-item">WILLIAM LEE</li>
-              <li class="nav-menu-item">BASED IN TAIWAN</li>
               <li class="nav-menu-item">
-                CURRENTLY FRONT END ENGINEER AT HEXSCHOOL
+                <a href="#introduction" class="nav-menu-item-link"
+                  >WILLIAM LEE</a
+                >
               </li>
-              <li class="nav-menu-item">CONTACT ME</li>
+              <li class="nav-menu-item">
+                <a href="#about" class="nav-menu-item-link">BASED IN TAIWAN</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="#project" class="nav-menu-item-link"
+                  >CURRENTLY FRONT END ENGINEER AT HEXSCHOOL</a
+                >
+              </li>
+              <li class="nav-menu-item">
+                <a href="#contact" class="nav-menu-item-link">CONTACT ME</a>
+              </li>
             </ul>
           </nav>
         </header>
         <main class="home-main">
-          <img src="src/img/people.png" alt="" />
+          <img src="src/img/people.png" alt="cover" />
           <div class="hero">
             <h2 class="hero-subtitle">Hi</h2>
             <h2 class="hero-subtitle">I’m a front-end developer</h2>
             <h1 class="hero-title">William</h1>
             <div class="hero-contact">
-              <a href="#contact" class="btn btn-light hero-btn"
+              <a href="#contact" class="btn btn-light hero-link"
                 >CONTACT ME <img src="src/img/arrow_outward.svg" alt=""
               /></a>
             </div>
           </div>
         </main>
       </section>
-      <section class="introduction">
+      <section class="introduction" id="introduction">
         <div class="container">
           <div class="introduction-textcontent">
             <h2 class="introduction-textcontent-title">Introduction</h2>
@@ -53,19 +63,19 @@
             <div
               class="introduction-textcontent introduction-textcontent-sparkle"
             >
-              <img src="src/img/sparkle-sm.png" alt="" /><!--
-              --><img src="src/img/sparkle-sm.png" alt="" /><!--
-              --><img src="src/img/sparkle-sm.png" alt="" />
+              <img src="src/img/sparkle-sm.png" alt="sparkle" /><!--
+              --><img src="src/img/sparkle-sm.png" alt="sparkle" /><!--
+              --><img src="src/img/sparkle-sm.png" alt="sparkle" />
             </div>
           </div>
           <div class="introduction-pic">
-            <img src="src/img/sparkle.png" alt="" /><!--
-            --><img src="src/img/photographer.png" alt="" /><!--
-            --><img src="src/img/people-2.png" alt="" />
+            <img src="src/img/sparkle.png" alt="photo1" /><!--
+            --><img src="src/img/photographer.png" alt="photo2" /><!--
+            --><img src="src/img/people-2.png" alt="photo3" />
           </div>
         </div>
       </section>
-      <section class="about bg-light">
+      <section class="about bg-light" id="about">
         <div class="container">
           <div class="about-content">
             <h2 class="about-content-title">About Me</h2>
@@ -110,29 +120,31 @@
           </div>
         </div>
       </section>
-      <section class="contact container" id="contact">
-        <h2 class="contact-title">CONTACT ME</h2>
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="contact-title">CONTACT ME</h2>
 
-        <img src="src/img/trending_flat_black_24dp 1.png" alt="" />
-        <ul class="contact-social">
-          <li class="contact-social-item">
-            <a href="" class="contact-social-link"
-              ><img src="src/img/discord.png" alt=""
-            /></a>
-          </li>
-          <li class="contact-social-item">
-            <a href="" class="contact-social-link"
-              ><img src="src/img/instagram.png" alt=""
-            /></a>
-          </li>
-          <li class="contact-social-item">
-            <a href="" class="contact-social-link"
-              ><img src="src/img/message.png" alt=""
-            /></a>
-          </li>
-        </ul>
+          <img src="src/img/trending_flat_black_24dp 1.png" alt="directive" />
+          <ul class="contact-social">
+            <li class="contact-social-item">
+              <a href="" class="contact-social-link"
+                ><img src="src/img/discord.png" alt="discord"
+              /></a>
+            </li>
+            <li class="contact-social-item">
+              <a href="" class="contact-social-link"
+                ><img src="src/img/instagram.png" alt="instagram"
+              /></a>
+            </li>
+            <li class="contact-social-item">
+              <a href="" class="contact-social-link"
+                ><img src="src/img/message.png" alt="message"
+              /></a>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="project bg-light">
+      <section class="project bg-light" id="project">
         <div class="container">
           <h2 class="project-title">My Projects</h2>
           <div class="project-content">
@@ -148,7 +160,10 @@
                 </p>
                 <div class="project-content-caption-text-more">
                   <a href="#" class="btn btn-dark"
-                    >SEE MORE <img src="src/img/arrow_outward-white.png" alt=""
+                    >SEE MORE
+                    <img
+                      src="src/img/arrow_outward-white.png"
+                      alt="another project"
                   /></a>
                 </div>
               </div>

@@ -1,0 +1,53 @@
+.contact {
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  padding: 6rem 0;
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+  &-title {
+    font-size: $title-fz;
+    margin-right: 1rem;
+  }
+  img {
+    margin-right: auto;
+  }
+  &-social {
+    display: flex;
+    gap: 1.25rem;
+    &-item {
+      width: 162px;
+      img {
+        width: 100%;
+        &:hover {
+          animation: swinging 1s 1;
+        }
+      }
+    }
+  }
+}
+
+@keyframes swinging {
+  15% {
+    transform: rotate(15deg);
+  }
+  30% {
+    transform: rotate(-15deg);
+  }
+  45% {
+    transform: rotate(15deg);
+  }
+  60% {
+    transform: rotate(-15deg);
+  }
+  75% {
+    transform: rotate(15deg);
+  }
+  90% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

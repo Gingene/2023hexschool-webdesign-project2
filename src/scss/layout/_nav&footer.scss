@@ -1,0 +1,29 @@
+.nav {
+  &-menu {
+    display: flex;
+    padding-top: 2.5rem;
+    gap: 61px;
+    &-item {
+      &:not(:last-child) {
+        width: 306px;
+      }
+      &:last-child {
+        width: 196px;
+        text-align: end;
+      }
+      &-link {
+        transition: all 0.3s;
+        &:hover {
+          display: block;
+          background-color: #fff;
+          color: #000;
+        }
+      }
+    }
+  }
+}
+
+.footer p {
+  text-align: center;
+  padding: 2.5rem 0;
+}

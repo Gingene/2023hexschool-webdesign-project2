@@ -1,8 +1,12 @@
+$title-fz: 4rem;
+$subtitle-fz: 1.5rem;
+$gutter: 1.5rem;
+
 *,
 *:before,
 *:after {
   box-sizing: border-box;
-  outline: 1px solid lightgreen;
+  // outline: 1px solid lightgreen;
 }
 
 body {
@@ -21,17 +25,17 @@ body {
   margin: 0 auto;
 }
 
+.bg-light {
+  background-color: #fff;
+  color: #000;
+}
+
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 2rem;
   text-align: center;
   vertical-align: middle;
-  background-color: #fff;
-  color: #000;
-}
-
-.bg-light {
   background-color: #fff;
   color: #000;
 }

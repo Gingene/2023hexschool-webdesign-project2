@@ -1,0 +1,30 @@
+.introduction {
+  background-image: url(../img/background-img.png);
+  background-size: cover;
+  padding: 10rem 0;
+  .container {
+    display: flex;
+  }
+  &-textcontent {
+    margin-right: $gutter;
+    width: 526px;
+    &-title {
+      font-size: $title-fz;
+    }
+    &-mytext {
+      font-size: $subtitle-fz;
+    }
+    &-sparkle {
+      img {
+        &:not(:last-child) {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+  &-pic {
+    img:not(:last-child) {
+      margin-right: $gutter;
+    }
+  }
+}
