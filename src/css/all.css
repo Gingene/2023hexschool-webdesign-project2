@@ -286,10 +286,9 @@ body {
 }
 .about-content-title {
   font-size: 4rem;
-  margin-bottom: 2.25rem;
-  margin-top: -2.25rem;
 }
 .about-content-text {
+  margin-top: 2.25rem;
   font-size: 1.5rem;
 }
 .about-cards {

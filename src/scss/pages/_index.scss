@@ -79,10 +79,9 @@
     width: 526px;
     &-title {
       font-size: $title-fz;
-      margin-bottom: 2.25rem;
-      margin-top: -2.25rem;
     }
     &-text {
+      margin-top: 2.25rem;
       font-size: $subtitle-fz;
     }
   }
