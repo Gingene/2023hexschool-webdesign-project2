@@ -15,7 +15,7 @@
   <body>
     <div class="wrap">
       <section class="home container">
-        <header>
+        <header data-aos="fade-up">
           <nav class="nav">
             <ul class="nav-menu">
               <li class="nav-menu-item">WILLIAM LEE</li>
@@ -29,7 +29,7 @@
             </ul>
           </nav>
         </header>
-        <main class="home-main">
+        <main class="home-main" data-aos="fade-down">
           <img src="src/img/people.png" alt="cover" />
           <div class="hero">
             <h2 class="hero-subtitle">
@@ -45,7 +45,7 @@
           </div>
         </main>
       </section>
-      <section class="introduction" id="introduction">
+      <section class="introduction" id="introduction" data-aos="fade-up">
         <div class="container">
           <div class="introduction-textcontent">
             <h2 class="introduction-textcontent-title">Introduction</h2>
@@ -69,7 +69,7 @@
           </div>
         </div>
       </section>
-      <section class="about bg-light" id="about">
+      <section class="about bg-light" id="about" data-aos="fade-up">
         <div class="container">
           <div class="about-content">
             <h2 class="about-content-title">About Me</h2>
@@ -114,7 +114,7 @@
           </div>
         </div>
       </section>
-      <section class="contact" id="contact">
+      <section class="contact" id="contact" data-aos="fade-up">
         <div class="container">
           <h2 class="contact-title">CONTACT ME</h2>
 
@@ -138,7 +138,7 @@
           </ul>
         </div>
       </section>
-      <section class="project bg-light" id="project">
+      <section class="project bg-light" id="project" data-aos="fade-up">
         <div class="container">
           <h2 class="project-title">My Projects</h2>
           <div class="project-content">
@@ -169,9 +169,14 @@
           </div>
         </div>
       </section>
-      <footer class="footer">
+      <footer class="footer" data-aos="fade-down">
         <p>all rights reserved @hexschool2023</p>
       </footer>
     </div>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
